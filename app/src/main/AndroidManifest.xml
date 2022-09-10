@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.layout1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        android:required="true"
+        android:requiredFeature="true"
+        tools:targetApi="31" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true">
+
+    </supports-screens>
+
+    <application
+        android:name=".GlobalVariable"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/logo"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Layout1"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Version_Activity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".PersonalPage_Activity"
+            android:exported="false"
+            android:label="@string/personal" />
+        <activity
+            android:name=".AddArticle_Activity"
+            android:exported="false"
+            android:label="@string/add_article" />
+        <activity
+            android:name=".BillBoardContent_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BillBoardList_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BillBoard_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePwd_Activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Login_FragmentActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".EditArticle_Activity"
+            android:exported="false"
+            android:label="@string/edit_article"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".Article_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Article_First_Page_Activity"
+            android:exported="false"
+            android:label="@string/frontPage"
+            android:theme="@style/Theme.Layout1" />
+
+        <service
+            android:name=".FCMService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_launcher_foreground" /> <!-- 訊息的icon -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/black" /> <!-- 訊息的背景顏色 -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

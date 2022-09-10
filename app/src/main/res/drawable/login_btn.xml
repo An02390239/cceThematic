@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/Lightbrown" />
+
+    <corners android:radius="10dp" />
+    <!-- 设置边距 -->
+
+    <!-- 设置渐变角度angle和渐变颜色 -->
+
+</shape>

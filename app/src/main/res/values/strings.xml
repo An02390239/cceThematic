@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">layout1</string>
+    <string name="frontPage">首頁</string>
+    <string name="logo">Albo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="All">全部</string>
+    <string name="SubscriptionPerson">訂閱作者</string>
+    <string name="SubscriptionArticle">訂閱公告</string>
+    <string name="todo">TODO</string>
+    <string name="number">0</string>
+    <string name="title">標題</string>
+    <string name="theme">主題</string>
+    <string name="article">內容</string>
+    <string name="message">留言區</string>
+    <string name="user">使用者</string>
+    <string name="time">時間</string>
+    <string name="pleaseInputtheme">輸入主題</string>
+    <string name="pleaseInputtitle">輸入標題</string>
+    <string name="pleaseInputcontent">輸入內容</string>
+    <string name="title_activity_login" tools:ignore="DuplicateDefinition">時間</string>
+    <string name="edit_add">送出</string>
+    <string name="browerhistory">瀏覽紀錄</string>
+    <string name="search_title">搜尋</string>
+    <string name="edit_article">編輯公告</string>
+    <string name="add_article">新增公告</string>
+    <string name="personal">個人</string>
+    <string name="verify">Verify</string>
+    <string name="studentVersion">校 園 版</string>
+    <string name="enterpriseVersion">企 業 版</string>
+    <string name="societyVersion">社 區 版</string>
+    //public
+
+    //Login
+    <string name="pic">picture</string>
+    <string name="login">登入</string>
+    <string name="FindBack">FindBack</string>
+    <string name="loginEng">Login</string>
+    <string name="hint_acct">輸入帳號</string>
+    <string name="hint_pwd">輸入密碼</string>
+    <string name="hint_olepwd">輸入舊密碼</string>
+    <string name="hint_newpwd">輸入新密碼</string>
+    <string name="hint_newpwd2">再次輸入新密碼</string>
+    <string name="board_test_btn">測試Board</string>
+    <string name="announcement_test_btn">測試announcement</string>
+
+    //reset_pwd
+    <string name="reset_pwd">Reset\nPassword</string>
+    <string name="change_pwd">Change\nPassword</string>
+
+    //findback_pwd
+    <string name="forget_pwd">Forgot\nPassword</string>
+    <string name="E_mail">輸入信箱</string>
+    <string name="press">送出</string>
+    //verification_check
+    <string name="verify_text">輸入驗證碼</string>
+    <string name="verification_hint">驗證碼</string>
+    <string name="VF_AC">帳號</string>
+
+    //homeview
+    <string name="exam">考試</string>
+    <string name="add_or_quit">加退選</string>
+    <string name="sup">補助</string>
+
+    //Announcement
+    <string name="announcement_textView">公告</string>
+    <string name="Email">信箱</string>
+    <string name="default_notification_channel_id">108</string>
+    <string name="MessageHint">請輸入留言</string>
+    <string name="AA_press">送出</string>
+
+
+</resources>

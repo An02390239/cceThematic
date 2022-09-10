@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Version_Activity"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    android:background="@color/darkGray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/societyButton"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/enterpriseButton"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/society_ver_background"
+            android:text="@string/societyVersion"
+            android:fontFamily="@font/article_wtl"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/schoolButton"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/student_ver_background"
+            android:text="@string/studentVersion"
+            android:fontFamily="@font/article_wtl"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/enterpriseButton"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/schoolButton"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/enterprise_ver_background"
+            android:text="@string/enterpriseVersion"
+            android:fontFamily="@font/article_wtl"
+            android:textSize="24dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

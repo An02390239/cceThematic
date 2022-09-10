@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/addarticle_activity.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/billboard_activity.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/billboardcontent_activity.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/billboardlist_activity.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/editarticle_activity.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/history_board_fragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/login_fragment.xml" value="0.16590678824721378" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/login_fragmentactivity.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/messagecard.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/people_sub_fragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/personal_functionlist_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/personal_page_activity.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/personal_page_fragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/personal_sub_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/register_fragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/reset_pwd_fragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/resetmail_fragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/verification_fragment.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/88871/Desktop/專題/新/layout0506/app/src/main/res/layout/version_activity.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
